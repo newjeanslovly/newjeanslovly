@@ -1,12 +1,26 @@
-- 👋 Hi, I’m @newjeanslovly
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 경주시 한국은행 정보검색 페이지 </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>계좌정보 검색</h1>
+        <input type="text" id="searchInput" placeholder="이름 / 계좌번호 입력">
+        <button onclick="search()">검색</button>
+        <div id="result"></div>
+    </div>
 
-<!---
-newjeanslovly/newjeanslovly is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    <div class="container">
+        <h1>직원 검색</h1>
+        <input type="text" id="searchInput1" placeholder="이름 / 고유번호 / 직급 입력">
+        <button onclick="search()">검색</button>
+        <div id="result1"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
